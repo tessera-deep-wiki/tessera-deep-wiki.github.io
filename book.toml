@@ -1,0 +1,13 @@
+[book]
+authors = ["Tessera Team"]
+language = "zh-CN"
+src = "src"
+title = "Tessera DeepWiki"
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
